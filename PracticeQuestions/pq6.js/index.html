@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial";
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100vh;
+        padding: 2rem;
+      }
+
+      #tabs {
+        display: flex;
+        gap: 20px;
+      }
+      .tab {
+        padding: 12px 22px;
+        background-color: #e9e9e9;
+        border: 2px solid #dadada;
+        border-radius: 4px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      h3 {
+        margin-top: 20px;
+        width: 50%;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <dl>
+      <dt>Q:6</dt>
+      <dd>
+        Create a tabbed interface where clicking on tabs displays different
+        content sections without a page reload
+      </dd>
+    </dl>
+    <br /><br />
+
+    <div id="tabs">
+      <div id="home" class="tab">Home</div>
+      <div id="about" class="tab">About</div>
+      <div id="contact" class="tab">Contact</div>
+    </div>
+
+    <h3 id="hometext">
+      HOME , sit amet consectetur adipisicing elit. Alias, fugit
+      inventore facilis nulla excepturi ullam delectus quod sapiente, doloremque
+      corporis tempora itaque. Similique sunt totam, neque culpa voluptate ex
+      quaerat repudiandae, ratione voluptatem nihil necessitatibus commodi velit
+      inventore praesentium nobis minima deserunt molestias ad nulla esse
+      eligendi dignissimos? Ex beatae vel similique commodi quam eos odio
+      magnam, officiis et. Magni voluptas rem soluta illum dolore in obcaecati
+      dolorum quo ratione explicabo. Quis commodi totam sunt quisquam neque
+      accusamus laudantium aliquid cum, in assumenda ullam vero. At excepturi
+      error omnis tempora natus, esse quisquam, quod praesentium aut, quam
+      perspiciatis! Delectus, modi.
+    </h3>
+
+    <h3 id="abouttext">
+      ABOUT , sit amet consectetur adipisicing elit. Laboriosam, sint
+      atque assumenda sequi deleniti voluptas accusamus nobis eligendi officiis
+      incidunt aperiam ex corrupti dolorum. Doloremque qui voluptas provident
+      error non voluptate mollitia consequatur, porro totam minus doloribus
+      neque fuga commodi fugiat ex molestias sed id veritatis atque dolor
+      placeat dicta. Maxime natus corporis quos voluptatem quasi commodi tempore
+      placeat deserunt facere architecto impedit iste dolores incidunt, fugit
+      dignissimos ex voluptate eius officia adipisci nisi sint! Deleniti quam
+      tempore atque explicabo vitae quo pariatur alias, possimus, quas dolorem
+      nisi omnis velit animi quos expedita illo harum. Laborum error quasi sunt?
+      Magnam cupiditate, asperiores excepturi vel ut fugiat dolor possimus
+      dignissimos, aut reprehenderit minus iste repellendus accusamus ullam
+      animi, quidem laudantium sunt harum. Reiciendis quisquam ex praesentium
+      nemo laboriosam amet facilis exercitationem beatae quo, id aliquid quidem
+      repellat, dolores, dolorem non assumenda. Recusandae necessitatibus quam a
+      aliquid nam sapiente dicta, libero laborum!
+    </h3>
+
+    <h3 id="contacttext">
+      CONTACT, dolor sit amet consectetur adipisicing elit. Magni molestias
+      at sint nostrum! Id veritatis dolore, est maiores, a aliquam doloribus
+      quidem iusto nemo tempora laboriosam cupiditate quos iste accusamus,
+      quaerat vero ea at eum. Eum est illum veritatis iure sapiente quod,
+      assumenda modi! Fuga cupiditate facilis reiciendis vitae placeat excepturi
+      sunt, illo distinctio voluptas atque itaque at pariatur, cumque temporibus
+      neque omnis quis. Quos consectetur inventore consequuntur ipsum? Minima.
+    </h3>
+
+    <script src="pq6.js"></script>
+  </body>
 </html>
