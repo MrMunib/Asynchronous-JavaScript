@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="w-full min-h-[200vh] bg-zinc-900 text-white p-10 relative">
+      <div class="relative w-fit text-center">
+        <button id="hide" class="bg-red-600 px-8 py-3 font-semibold rounded-md">
+          Hover me to see tooltip
+        </button>
+
+        <div
+          class="hidden tooltip w-full absolute z-[2] -top-7 left-0 bg-green-500 px-3 font-semibold rounded-sm text-sm"
+        >
+          Tooltip
+        </div>
+      </div>
+    </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
