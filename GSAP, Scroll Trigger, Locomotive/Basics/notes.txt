@@ -1,0 +1,8 @@
+
+What is GSAP ?
+
+> GSAP is an (Animation Libarary)
+> GSAP stands for (GreenSock Animation Plateform)
+> It is open source
+> cdn = link
+> Libarary of JavaScript
